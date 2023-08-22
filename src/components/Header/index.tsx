@@ -1,5 +1,5 @@
 import { HeaderContainer } from "./styles";
-import logo from '../../assets/Logo.svg'
+import logo from '../../assets/Timer-logo2.png'
 import { Timer, Scroll } from "phosphor-react";
 import { NavLink } from "react-router-dom";
 
