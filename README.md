@@ -12,6 +12,7 @@ Cada tarefa possui um estado, podendo ser "concluída", "interrompida" ou "em an
 
 ## Layout web
 
+https://github.com/matheusdenigris/Timer/assets/102500827/ca07dc8b-77d5-439c-b414-258c2279f868
 
 # Tecnologias utilizadas
 
@@ -34,7 +35,7 @@ npm install
 npm run dev
 ```
 
-#Bibliotecas utilizadas
+# Bibliotecas utilizadas
 - react-router-dom
 - styled-components
 - phosphor-react
