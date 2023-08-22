@@ -1,27 +1,51 @@
-# React + TypeScript + Vite
+# Timer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Sobre o projeto
 
-Currently, two official plugins are available:
+https://timer-tau-two.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Timer é uma aplicação Front-end feita para organizar suas tarefas do dia a dia, em que você define o tempo designado para cada tarefa.
 
-## Expanding the ESLint configuration
+A aplicação contém uma aba de histórico, contendo suas antigas tarefas que ficam armazenadas na memória do navegador.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Cada tarefa possui um estado, podendo ser "concluída", "interrompida" ou "em andamento" o estado é definido pela ação do usuário.
 
-- Configure the top-level `parserOptions` property like this:
+## Layout web
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+
+# Tecnologias utilizadas
+
+## Front-end
+- HTML / JS / TypeScript
+- ReactJS
+
+# Como executar o projeto
+
+Pré-requisitos: npm / yarn
+
+```bash
+# clonar repositório
+git clone https://github.com/matheusdenigris/Timer.git
+
+# instalar dependências
+npm install
+
+# executar o projeto
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+#Bibliotecas utilizadas
+- react-router-dom
+- styled-components
+- phosphor-react
+- react-hook-form
+- zod
+- hookform/resolvers
+- date-fns
+- immer
+
+# Autor
+
+Matheus De Nigris
+
+https://www.linkedin.com/in/matheus-de-nigris-a89618269/
